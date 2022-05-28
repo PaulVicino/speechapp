@@ -12,7 +12,7 @@ import { query, collection, getDocs,  updateDoc, where, doc, arrayUnion } from '
 // import { PushToTalkButton, BigTranscript, PushToTalkButtonContainer } from "@speechly/react-ui";
 // import { useSpeechContext } from '@speechly/react-client';
 
-const appId = 'REDACTED';
+const appId = '762a5828-6832-4887-b58d-ee0a77ff6448';
 const SpeechlySpeechRecognition = createSpeechlySpeechRecognition(appId);
 SpeechRecognition.applyPolyfill(SpeechlySpeechRecognition);
 

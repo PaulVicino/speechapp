@@ -3,10 +3,7 @@ import React/*,{ useEffect, useState}*/ from 'react';
 import { /*auth,*/ signInWithGoogle } from "./firebase-config";
 // import { useAuthState } from "react-firebase-hooks/auth";
 
-
 const Signin = () => {
-
-
 
     return (
       <section class="hero is-primary is-bold is-fullheight">
