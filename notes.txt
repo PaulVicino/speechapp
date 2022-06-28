@@ -1,0 +1,50 @@
+In SpeechApp:
+npm install -g create-react-app
+npx create-react-app speechapp
+
+In SpeechApp/speechapp:
+npm install firebase
+npm install bulma
+
+Font Awesome Icons:
+npm install font-awesome --save
+npm i --save @fortawesome/fontawesome-svg-core
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/free-regular-svg-icons
+npm i --save @fortawesome/react-fontawesome@latest
+
+Delete:
+App.test.js
+setupTests.js
+logo.svg
+index.css
+
+Remove:
+references to the deleted files in App.js and index.js
+Also, remove the contents of the "App" div in App.js
+
+Start app:
+npm start
+
+Speech to Text:
+npm install --save react-speech-recognition
+
+Speechly:
+npm install --save @speechly/react-client
+npm install --save @speechly/react-ui
+npm i @speechly/speech-recognition-polyfill
+
+Firebase Auth:
+npm install react-router-dom
+npm install react-firebase-hooks
+npm install -g firebase-tools
+
+
+To fix warning:
+npm i -D cross-env
+Then in package.json add "cross-env GENERATE_SOURCEMAP=false"
+
+To deploy:
+firebase login
+firebase init
+firebase deploy
