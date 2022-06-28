@@ -1,10 +1,15 @@
 {
+<<<<<<< HEAD
   "firestore": {
     "rules": "firestore.rules",
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
     "public": "public",
+=======
+  "hosting": {
+    "public": "build",
+>>>>>>> e5c10ba2fcacf769fafabce98d4c78eb933310ce
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -15,6 +20,12 @@
         "source": "**",
         "destination": "/index.html"
       }
+<<<<<<< HEAD
+=======
+    ],
+    "headers": [
+      {"source": "/service-worker.js", "headers": [{"key": "Cache-Control", "value": "no-cache"}]}
+>>>>>>> e5c10ba2fcacf769fafabce98d4c78eb933310ce
     ]
   }
 }

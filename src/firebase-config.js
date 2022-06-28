@@ -17,12 +17,17 @@ import {
 // dont publish these keys on github
 const firebaseConfig = {
 
+<<<<<<< HEAD
     apiKey: "AIzaSyDerebUmW4JDL7W7r4h09OoQNayBWmV5Kw",
+=======
+    apiKey: "REDACTED",
+>>>>>>> e5c10ba2fcacf769fafabce98d4c78eb933310ce
   
     authDomain: "speechapp-951db.firebaseapp.com",
   
     projectId: "speechapp-951db",
   
+<<<<<<< HEAD
     storageBucket: "speechapp-951db.appspot.com",
   
     messagingSenderId: "830546303109",
@@ -30,6 +35,15 @@ const firebaseConfig = {
     appId: "1:830546303109:web:0c3c49d4dd9030d7f2f1ec",
   
     measurementId: "G-T8KTS10PZH"
+=======
+    storageBucket: "REDACTED",
+  
+    messagingSenderId: "REDACTED",
+  
+    appId: "REDACTED",
+  
+    measurementId: "REDACTED"
+>>>>>>> e5c10ba2fcacf769fafabce98d4c78eb933310ce
   
   };
   
